@@ -1,13 +1,13 @@
-# Inclusion Benchmarks from Hyperproperties 
+# Language Inclusion Benchmarks from Hyperproperties 
 
 This repository contains a range of language inclusion benchmarks on Büchi automata.  
-The instances come from hyperproperty model checking problems produced using [*AutoHyper*](https://github.com/AutoHyper/AutoHyper). 
+The instances come from hyperproperty model-checking problems produced using [*AutoHyper*](https://github.com/AutoHyper/AutoHyper). 
 When checking a HyperLTL formula that involves quantifier alternations, we can naturally encode the model-checking problem as a language inclusion problem of Büchi automata. 
 For details see 
 
 > AutoHyper: Explicit-State Model Checking for HyperLTL. Raven Beutner and Bernd Finkbeiner. TACAS 2023.
 
-This repository contains 3 families of benchmarks: 
+This repository currently contains 3 families of benchmarks: 
 
 - `gni/` contains instances obtained when checking generalized non-interference (GNI) on small boolean programs with varying size (but small bisimulation quotient)
 - `nusmv/` contains instances obtained when checking a wide range of properties on NuSMV models created by [2].
